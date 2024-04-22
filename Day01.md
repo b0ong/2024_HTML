@@ -38,12 +38,16 @@
     - h1,h2,h3... 은 해당 html파일에 있는 h1,h2,h3...이랑 같은 컬럼임.
 #### 공백 띄우기
   - html에서 공백을 할려면 space로는 인식이 안됨
-  - &nbsp로 해야 인식함. (' ; ' 를 붙여야함) 
+  - &nbsp로 해야 인식함. (' ; ' 를 붙여야함)
+
 ![공백 띄우기](https://github.com/b0ong/2024_HTML/blob/main/images/space.png)
 #### Script
   - Script는 웹사이트를 열었을 때 알림창 같은 새 창을 여는 것임
 #### 줄바꿈
   - hr 태그는 줄을 만들어 분리시키는 느낌을 줌
+
+![hr사용예](https://github.com/b0ong/2024_HTML/blob/main/images/hr.png)
+
   - p 태그는 문단을 만든다.
   - br 태그는 줄바꿈, 시작태그가 없음. (enter느낌)
 #### 링크삽입
