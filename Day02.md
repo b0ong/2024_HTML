@@ -6,7 +6,7 @@
    -  리스트를 사용할 때는 ol, ul을 사용한다.\
      - ol : 순서가 있는 리스트\
      - ul : 순서가 없는 리스트\
-    ![img.png](img.png)\
+    ![img.png](images/img.png)\
 ->  윗부분이 ol, 아랫부분이 ul
 
 ```html
@@ -31,7 +31,7 @@
     </li>
 </ul>
 ```
-![img_1.png](img_1.png)\
+![img_1.png](images/img_1.png)\
 -> ol 다음에 li를쓰면 리스트 형식으로 번호로 순서가 매겨짐
 
 ### TABLE
@@ -65,7 +65,7 @@
 - table 태그로 테이블을 만든다.
     tr 태그로 한 행을 구성하고 th 태그로 제목, td 태그로 셀을 작성한다.
 - 코드 실행 결과\
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 ### Span 
 - 스펜은 테이블에서 표를 병합하는 것을 의미함.
@@ -93,7 +93,7 @@
 </table>
 ```
 - 실행결과\
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 
 ### font
 - 폰트는 글자의 기울기, 밑줄 등 폰트에 관련된 것을 의미함.
@@ -115,7 +115,7 @@
 - ins : 글자 밑에 밑줄을 표시함
 - del : 글자 중앙에 줄을 그어 표시함
 - 실행결과\
-![img_4.png](img_4.png)
+![img_4.png](images/img_4.png)
 
 ### 이미지, 동영상, 오디오
 - 이미지를 생성할 때는 img 태그를 사용
