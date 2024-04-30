@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: coral;
+            left: 10px;
+            top: 10px;
+            z-index: 100;
+        }
+        .box:nth-child(2) {
+            background-color: beige;
+            left: 50px;
+            top: 50px;
+            z-index: 50;
+        }
+        .box:nth-child(3) {
+            background-color: aquamarine;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<h1>absolute test</h1>
+<div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<h1>absolute test</h1>
+</body>
+</html>
+<!--
+    z-index는 도형 순서를 바꿀때 사용한다.(position이 지정되어있어야 한다.)
+    절대좌표: absolute, fixed
+    상대좌표: static, relative
+    top-bottom-left-right
+-->

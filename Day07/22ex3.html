@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 10px auto;
+        }
+        #top {
+            background-color: coral;
+        }
+        #bottom {
+            background-color: goldenrod;
+        }
+        #middle {
+            overflow: hidden;
+        }
+        #left {
+            float: left; width: 150px;
+            background-color: khaki;
+        }
+        #right {
+            float: left; width: 350px;
+            background-color: tan;
+        }
+    </style>
+</head>
+<body>
+<div id="top">As the sun dipped below the horizon, casting a golden glow across the tranquil sea,
+    the waves gently lapped against the shore, creating a soothing melody that echoed through the evening air,
+    where seabirds soared gracefully against the painted sky
+</div>
+<div id="middle">As the sun dipped below the horizon, casting a golden glow across the tranquil sea,
+    the waves gently lapped against the shore, creating a soothing melody that echoed through the evening air,
+    where seabirds soared gracefully against the painted sky
+    <div id="left">As the sun dipped below the horizon, casting a golden glow across the tranquil sea,
+    </div>
+    <div id="right">As the sun dipped below the horizon, casting a golden glow across the tranquil sea,
+        the waves gently lapped against the shore, creating a soothing melody that echoed through the evening air,
+        where seabirds soared gracefully against the painted sky
+        the waves gently lapped against the shore, creating a soothing melody that echoed through the evening air,
+        where seabirds soared gracefully against the painted sky
+    </div>
+</div>
+    <div id="bottom">As the sun dipped below the horizon, casting a golden glow across the tranquil sea,
+        the waves gently lapped against the shore, creating a soothing melody that echoed through the evening air,
+        where seabirds soared gracefully against the painted sky
+    </div>
+</body>
+</html>
+<!--
+    부모태그에 고정된 너비를 입력한다.(500px)
+    수평정렬하는 부모태그의 overflow속성에 hidden
+    자손태그는 너비를 입력하고 float속성을 적용한다.
+-->
