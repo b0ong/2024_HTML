@@ -1,0 +1,38 @@
+body {
+    font-size: 2rem;
+    font-weight: bold;
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows:100px auto 50px;
+    grid-template-areas:
+        'header header'
+        'main side'
+        'footer footer';
+    margin:0 auto;
+}
+
+header {
+    grid-area:header;
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+    background-color: white;
+}
+
+aside {
+    grid-area:side;
+    background-color: orange;
+}
+
+footer{
+    grid-area:footer;
+    background-color: black;
+    color: white;
+}

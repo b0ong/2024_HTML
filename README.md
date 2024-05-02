@@ -46,3 +46,15 @@
 ## [6일차](https://github.com/b0ong/2024_HTML/blob/main/Day06.md)
 
 ## [7일차](https://github.com/b0ong/2024_HTML/blob/main/Day07.md)
+
+[CSS 단위 적용 기준]
+- %, em, rem
+  1. 부모요소에 따라서 변경되어야 하는 경우: %, em
+     - 그렇지 않을 경우: 뷰포트, rem
+  2. 요소의 너비 또는 높이에 따라서 사이즈가 변경되어야 하는 경우: %, 뷰포트
+     - 폰트에 따라서 크기가 변경될 경우에는 em, rem 
+  ### em VS rem
+    - rem은 루트 요소에 있는 폰트 사이즈에 따라서 크기가 결정된다.
+    - em은 부모 요소의 폰트 사이즈에 따라서 크기가 결정된다.
+  ### 고전적인 방법의 layout은 Position, float, table
+  - flex, grid
